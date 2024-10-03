@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 DESCRIPTION = "PSSE"
 LONG_DESCRIPTION = "A Python Simple Search Engine (PSSE) for documents using an inverted matrix and Okapi BM25."
 
@@ -23,4 +23,5 @@ setup(
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
     ],
+    url="https://github.com/sgonzalezr94/PythonSimpleSearchEngine",
 )

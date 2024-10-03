@@ -15,7 +15,7 @@ pip install psse
 ```python
 # Search engine quick example
 
-from searchengine import SearchEngine
+from psse.searchengine import SearchEngine
 
 # Simple test documents dictionary. The documents could be scrapped or gathered in any datastructure you feel comfortable with.
 test_docs = {
