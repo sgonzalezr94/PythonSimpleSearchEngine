@@ -4,10 +4,10 @@ PSSE is a simple light-weight search engine built in Python based on [Okapi BM25
 
 ## Installation
 
-For now, just need to clone this repository and then include it on your project. After this is done you just need to:
+You can install it using `pip`.
 
-```python
-from searchengine import SearchEngine
+```bash
+pip install psse
 ```
 
 ## Usage

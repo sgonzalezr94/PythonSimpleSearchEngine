@@ -2,9 +2,7 @@ from setuptools import setup, find_packages
 
 VERSION = "0.0.1"
 DESCRIPTION = "PSSE"
-LONG_DESCRIPTION = (
-    "A Python Simple Search Engine (PSSE) for documents using an inverted matrix."
-)
+LONG_DESCRIPTION = "A Python Simple Search Engine (PSSE) for documents using an inverted matrix and Okapi BM25."
 
 # Setting up
 setup(
@@ -23,8 +21,6 @@ setup(
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Education",
         "Programming Language :: Python :: 3",
-        "Operating System :: MacOS :: MacOS X",
-        "Operating System :: Linux :: Ubuntu",
-        "Operating System :: Microsoft :: Windows",
+        "Operating System :: OS Independent",
     ],
 )
